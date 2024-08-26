@@ -256,6 +256,7 @@ unset($_SESSION['user_name']);
         </form>
 
         <h1 class="mt-4">Lista de ROMS</h1>
+        <h1 class="mt-4">Lista de ROMS</h1>
 
         <!-- Exibir mensagem de erro, se houver -->
         <?php if (!empty($errorMsg)): ?>
