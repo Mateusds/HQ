@@ -1,0 +1,9 @@
+{
+    "name": "meu_repositorio/roms_site",
+    "description": "Um site para gerenciar e baixar ROMs.",
+    "version": "1.0.0",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "google/apiclient": "2.0"
+    }
+}
