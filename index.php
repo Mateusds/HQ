@@ -186,6 +186,9 @@ unset($_SESSION['user_name']);
                     <li class="nav-item">
                         <a class="nav-link" href="admin_usuarios.php">Usuários</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin_sagas.php">Administrar Sagas</a>
+                    </li>
                 <?php endif; ?>
                 <?php if ($isUser): ?>
                     <li class="nav-item">
