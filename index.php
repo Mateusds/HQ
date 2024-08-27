@@ -79,7 +79,7 @@ try {
 }
 
 // Verifica se há uma mensagem de sucesso de login
-$showModal = isset($_SESSION['login_success']) && $_SESSION['login_success'];
+$showModal = isset($_SESSION['login_success']) && $_SESSION['login_success'] && !$isAdmin;
 $userName = isset($_SESSION['user_name']) ? $_SESSION['user_name'] : '';
 
 // Limpar a variável após exibi-la
